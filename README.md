@@ -1,4 +1,4 @@
-\# SRE Multi-Agent
+﻿\# SRE Multi-Agent
 
 
 
@@ -12,75 +12,76 @@ An AI-powered multi-agent SRE incident response system that investigates product
 
 ```text
 
-&#x20;                   Incident / Alert
+                   Incident / Alert
 
-&#x20;                         |
+                         |
 
-&#x20;                         v
+                         v
 
-&#x20;                 +---------------+
+                 +---------------+
 
-&#x20;                 |  Orchestrator |
+                 |  Orchestrator |
 
-&#x20;                 +-------+-------+
+                 +-------+-------+
 
-&#x20;                         |
+                         |
 
-&#x20;         +---------------+---------------+
+         +---------------+---------------+
 
-&#x20;         |               |               |
+         |               |               |
 
-&#x20;         v               v               v
+         v               v               v
 
-&#x20;    Monitoring         Logs        Infrastructure
+    Monitoring         Logs        Infrastructure
 
-&#x20;       Agent           Agent            Agent
+       Agent           Agent            Agent
 
-&#x20;         |               |               |
+         |               |               |
 
-&#x20;         +---------------+---------------+
+         +---------------+---------------+
 
-&#x20;                         |
+                         |
 
-&#x20;                         v
+                         v
 
-&#x20;                    RAG Agent
+                    RAG Agent
 
-&#x20;                         |
+                         |
 
-&#x20;                         v
+                         v
 
-&#x20;                     RCA Agent
+                     RCA Agent
 
-&#x20;                         |
+                         |
 
-&#x20;                         v
+                         v
 
-&#x20;                   Safety Agent
+                   Safety Agent
 
-&#x20;                         |
+                         |
 
-&#x20;                         v
+                         v
 
-&#x20;                 Human Approval
+                 Human Approval
 
-&#x20;                         |
+                         |
 
-&#x20;                +--------+--------+
+                +--------+--------+
 
-&#x20;                |                 |
+                |                 |
 
-&#x20;             Approved          Rejected
+             Approved          Rejected
 
-&#x20;                |                 |
+                |                 |
 
-&#x20;                v                 v
+                v                 v
 
-&#x20;         Remediation Agent       END
+         Remediation Agent       END
 
-&#x20;                |
+                |
 
-&#x20;                v
+                v
 
-&#x20;           Final Report
+           Final Report
+
 
